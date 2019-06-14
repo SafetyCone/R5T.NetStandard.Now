@@ -1,0 +1,4 @@
+R5T.NetStandard.Now.Construction - A construction console entry-point for the R5T.NetStandard.Now library (A library containing the Now type and related functionality.).
+
+Goals
+
