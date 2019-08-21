@@ -41,7 +41,7 @@ namespace R5T.NetStandard
                     break;
 
                 default:
-                    throw new Exception(EnumHelper.GetUnexpectedEnumerationValueMessage(Now.Mode));
+                    throw new Exception(EnumHelper.UnexpectedEnumerationValueMessage(Now.Mode));
             }
         }
 
@@ -80,7 +80,7 @@ namespace R5T.NetStandard
                         return output;
 
                     default:
-                        throw new Exception(EnumHelper.GetUnexpectedEnumerationValueMessage(Now.Mode));
+                        throw new Exception(EnumHelper.UnexpectedEnumerationValueMessage(Now.Mode));
                 }
             }
         }
