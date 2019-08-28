@@ -13,8 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependenc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.NetStandard.Types", "..\..\R5T.NetStandard.Types\source\R5T.NetStandard.Types\R5T.NetStandard.Types.csproj", "{9B1FB611-D5E1-4826-A91B-82235434E01D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.NetStandard.Extensions", "..\..\R5T.NetStandard.Extensions\source\R5T.NetStandard.Extensions\R5T.NetStandard.Extensions.csproj", "{EDFC942A-30CA-43E6-A329-300949714DDE}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.NetStandard.TypedString", "..\..\R5T.NetStandard.TypedString\source\R5T.NetStandard.TypedString\R5T.NetStandard.TypedString.csproj", "{28CF464F-F553-4CC1-A0BA-51AC5DB7285F}"
 EndProject
 Global
@@ -75,18 +73,6 @@ Global
 		{9B1FB611-D5E1-4826-A91B-82235434E01D}.Release|x64.Build.0 = Release|Any CPU
 		{9B1FB611-D5E1-4826-A91B-82235434E01D}.Release|x86.ActiveCfg = Release|Any CPU
 		{9B1FB611-D5E1-4826-A91B-82235434E01D}.Release|x86.Build.0 = Release|Any CPU
-		{EDFC942A-30CA-43E6-A329-300949714DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EDFC942A-30CA-43E6-A329-300949714DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EDFC942A-30CA-43E6-A329-300949714DDE}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{EDFC942A-30CA-43E6-A329-300949714DDE}.Debug|x64.Build.0 = Debug|Any CPU
-		{EDFC942A-30CA-43E6-A329-300949714DDE}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{EDFC942A-30CA-43E6-A329-300949714DDE}.Debug|x86.Build.0 = Debug|Any CPU
-		{EDFC942A-30CA-43E6-A329-300949714DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EDFC942A-30CA-43E6-A329-300949714DDE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EDFC942A-30CA-43E6-A329-300949714DDE}.Release|x64.ActiveCfg = Release|Any CPU
-		{EDFC942A-30CA-43E6-A329-300949714DDE}.Release|x64.Build.0 = Release|Any CPU
-		{EDFC942A-30CA-43E6-A329-300949714DDE}.Release|x86.ActiveCfg = Release|Any CPU
-		{EDFC942A-30CA-43E6-A329-300949714DDE}.Release|x86.Build.0 = Release|Any CPU
 		{28CF464F-F553-4CC1-A0BA-51AC5DB7285F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{28CF464F-F553-4CC1-A0BA-51AC5DB7285F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28CF464F-F553-4CC1-A0BA-51AC5DB7285F}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -105,7 +91,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9B1FB611-D5E1-4826-A91B-82235434E01D} = {A7C5D583-02AB-4C39-8568-20C1BA909E2D}
-		{EDFC942A-30CA-43E6-A329-300949714DDE} = {A7C5D583-02AB-4C39-8568-20C1BA909E2D}
 		{28CF464F-F553-4CC1-A0BA-51AC5DB7285F} = {A7C5D583-02AB-4C39-8568-20C1BA909E2D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
